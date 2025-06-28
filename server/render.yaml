@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: ai-blog-server
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars: []
+    rootDir: .
+    nodeVersion: 18
