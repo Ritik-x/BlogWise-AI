@@ -1,0 +1,15 @@
+# Root-level node_modules (if any)
+node_modules/
+
+# Server and client env files
+.env
+server/.env
+client/.env
+
+# Build folders (if you build client/server)
+dist/
+build/
+
+# System files
+.DS_Store
+.env.local
